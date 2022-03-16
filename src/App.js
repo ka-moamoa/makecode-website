@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/iceberg" element={<Homepage />} />
           <Route path="/code" element={<Code />} />
         </Routes>
       </BrowserRouter>

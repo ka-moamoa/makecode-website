@@ -14,12 +14,15 @@ const Homepage = () => {
         Battery-free MakeCode
       </Typography>
       <Grid container justifyContent="center" sx={{ mt: 5 }}>
-        <Card sx={{ maxWidth: 400 }}>
+        <Card sx={{ maxWidth: "70vw" }}>
           <CardMedia
             component="iframe"
             alt="MakeCode Iceberg Overview Video"
-            src="https://www.youtube.com/embed/aaBHzfc0KOg"
-            sx={{ height: 300, width: 500 }}
+            src="https://www.youtube.com/embed/9pRQGuJyE80"
+            sx={{
+              height: "400px",
+              width: "600px",
+            }}
           />
         </Card>
       </Grid>

@@ -70,7 +70,10 @@ const Navbar = () => {
             >
               {/* ABOUT PAGE*/}
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center" onClick={() => navigate("/")}>
+                <Typography
+                  textAlign="center"
+                  onClick={() => navigate("/iceberg")}
+                >
                   About
                 </Typography>
               </MenuItem>
@@ -79,7 +82,7 @@ const Navbar = () => {
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography
                   textAlign="center"
-                  onClick={() => navigate("/Code")}
+                  onClick={() => navigate("/code")}
                 >
                   Code
                 </Typography>
@@ -114,7 +117,7 @@ const Navbar = () => {
             <Button
               onClick={() => {
                 handleCloseNavMenu();
-                navigate("/");
+                navigate("/iceberg");
               }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
@@ -123,7 +126,7 @@ const Navbar = () => {
             <Button
               onClick={() => {
                 handleCloseNavMenu();
-                navigate("/Code");
+                navigate("/code");
               }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
