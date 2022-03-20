@@ -130,13 +130,22 @@ const Navbar = () => {
               }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
-              Code
+              Getting Started
             </Button>
             <Button
-              onClick={handleCloseNavMenu}
+              onClick={() => {
+                handleCloseNavMenu();
+              }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
-              Ka Moamoa
+              <a
+                href="https://github.com/ka-moamoa/makecode-ic"
+                target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
+                rel="noreferrer"
+              >
+                Ka Moamoa
+              </a>
             </Button>
           </Box>
         </Toolbar>

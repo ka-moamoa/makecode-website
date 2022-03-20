@@ -3,7 +3,6 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
-
 const Homepage = () => {
   return (
     <>
@@ -27,7 +26,7 @@ const Homepage = () => {
         </Card>
       </Grid>
       <Typography variant="body1" sx={{ margin: 5 }} align="center">
-        Microsoft MakeCode is one of the most popular platforms for learned and
+        Microsoft MakeCode is one of the most popular platforms for learning and
         teaching computer science. It is found in classrooms, as well as used by
         the “maker” movement. Our project, Battery-free MakeCode transforms
         standard Microsoft MakeCode programs to add additional system support,
