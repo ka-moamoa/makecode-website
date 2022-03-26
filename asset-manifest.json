@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/makecode-website/static/css/main.e6c13ad2.css",
-    "main.js": "/makecode-website/static/js/main.26f387c3.js",
+    "main.js": "/makecode-website/static/js/main.d12bd751.js",
     "static/js/787.0863a8aa.chunk.js": "/makecode-website/static/js/787.0863a8aa.chunk.js",
     "static/media/1.png": "/makecode-website/static/media/1.94d944bbd5eea91565d3.png",
     "static/media/5.png": "/makecode-website/static/media/5.78545037be292805120d.png",
@@ -12,11 +12,11 @@
     "static/media/4.png": "/makecode-website/static/media/4.cbbd48f466f2ba5a37d5.png",
     "index.html": "/makecode-website/index.html",
     "main.e6c13ad2.css.map": "/makecode-website/static/css/main.e6c13ad2.css.map",
-    "main.26f387c3.js.map": "/makecode-website/static/js/main.26f387c3.js.map",
+    "main.d12bd751.js.map": "/makecode-website/static/js/main.d12bd751.js.map",
     "787.0863a8aa.chunk.js.map": "/makecode-website/static/js/787.0863a8aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.26f387c3.js"
+    "static/js/main.d12bd751.js"
   ]
 }
