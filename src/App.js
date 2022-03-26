@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/iceberg" element={<Homepage />} />
+          <Route path="/makecode-website" element={<Homepage />} />
           <Route path="/code" element={<Code />} />
         </Routes>
       </BrowserRouter>

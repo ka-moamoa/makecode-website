@@ -72,7 +72,7 @@ const Navbar = () => {
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography
                   textAlign="center"
-                  onClick={() => navigate("/iceberg")}
+                  onClick={() => navigate("/makecode-website")}
                 >
                   About
                 </Typography>
@@ -117,7 +117,7 @@ const Navbar = () => {
             <Button
               onClick={() => {
                 handleCloseNavMenu();
-                navigate("/iceberg");
+                navigate("/makecode-website");
               }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
