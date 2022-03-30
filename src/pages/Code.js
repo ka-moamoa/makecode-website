@@ -31,7 +31,7 @@ const Code = () => {
               target="_blank"
               rel="noreferrer"
             >
-              MakeCode-Iceberg Server
+              Battery-free MakeCode Server
             </a>
           </li>
           <li style={{ marginTop: "8px" }}>

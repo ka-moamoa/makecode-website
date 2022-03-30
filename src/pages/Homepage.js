@@ -6,9 +6,6 @@ const Homepage = () => {
   return (
     <Box justifyContent="center" sx={{ mb: 3 }}>
       <Typography variant="h2" align="center" sx={{ mt: 5 }}>
-        MakeCode Iceberg
-      </Typography>
-      <Typography variant="h4" align="center" sx={{ mx: 1 }}>
         Battery-free MakeCode
       </Typography>
       <Card sx={{ maxWidth: "70vw", display: "block", m: "auto", mt: 2 }}>
