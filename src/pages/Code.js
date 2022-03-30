@@ -16,7 +16,7 @@ const Code = () => {
         Getting Started
       </Typography>
       <Typography variant="h4" textAlign="center">
-        Using our Server (Microbit)
+        Using our Server
       </Typography>
       <Box
         sx={{ width: "80%", m: "auto", d: "block" }}
@@ -25,19 +25,16 @@ const Code = () => {
         <ol>
           {" "}
           <li style={{ mt: 2 }}>
-            {" "}
-            Go to our{" "}
+            Go to our
             <a
               href="https://microbit-ic-jyd3j.ondigitalocean.app/"
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
-              MakeCode-Iceberg Server{" "}
+              MakeCode-Iceberg Server
             </a>
           </li>
           <li style={{ marginTop: "8px" }}>
-            {" "}
             Click "import" and then "import url"
           </li>
           <img

@@ -1,31 +1,25 @@
 //Import MaterialUI Components
 import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
+
+import YoutubeVideo from "../components/Youtube";
 const Homepage = () => {
   return (
     <>
       <Typography variant="h2" align="center" sx={{ mt: 5 }}>
         MakeCode Iceberg
       </Typography>
-      <Typography variant="h4" align="center">
+      <Typography variant="h4" align="center" sx={{ mx: 1 }}>
         Battery-free MakeCode
       </Typography>
-      <Grid container justifyContent="center" sx={{ mt: 5 }}>
-        <Card sx={{ maxWidth: "70vw" }}>
-          <CardMedia
-            component="iframe"
-            alt="MakeCode Iceberg Overview Video"
-            src="https://www.youtube.com/embed/9pRQGuJyE80"
-            sx={{
-              height: "400px",
-              width: "600px",
-            }}
-          />
-        </Card>
-      </Grid>
-      <Typography variant="body1" sx={{ margin: 5 }} align="center">
+      <Card sx={{ maxWidth: "70vw", display: "block", m: "auto", mt: 2 }}>
+        <YoutubeVideo youtubeId="9pRQGuJyE80" />
+      </Card>
+      <Typography
+        variant="body1"
+        sx={{ width: "70vw", display: "block", m: "auto", my: 5 }}
+        align="center"
+      >
         Microsoft MakeCode is one of the most popular platforms for learning and
         teaching computer science. It is found in classrooms, as well as used by
         the “maker” movement. Our project, Battery-free MakeCode transforms

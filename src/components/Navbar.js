@@ -88,6 +88,17 @@ const Navbar = () => {
                 </Typography>
               </MenuItem>
 
+              {/* DEMO PAGE */}
+              <MenuItem onClick={handleCloseNavMenu}>
+                <Typography
+                  textAlign="center"
+                  onClick={() => navigate("/demo")}
+                >
+                  Demos
+                </Typography>
+              </MenuItem>
+
+              {/* KA MOAMOA SITE */}
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link
@@ -135,11 +146,20 @@ const Navbar = () => {
             <Button
               onClick={() => {
                 handleCloseNavMenu();
+                navigate("/demo");
+              }}
+              sx={{ my: 2, color: "black", display: "block" }}
+            >
+              Demos
+            </Button>
+            <Button
+              onClick={() => {
+                handleCloseNavMenu();
               }}
               sx={{ my: 2, color: "black", display: "block" }}
             >
               <a
-                href="https://github.com/ka-moamoa/makecode-ic"
+                href="http://kamoamoa.eecs.northwestern.edu/"
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
                 rel="noreferrer"
