@@ -25,7 +25,7 @@ const Code = () => {
         <ol>
           {" "}
           <li style={{ mt: 2 }}>
-            Go to our
+            Go to our{" "}
             <a
               href="https://microbit-ic-jyd3j.ondigitalocean.app/"
               target="_blank"
