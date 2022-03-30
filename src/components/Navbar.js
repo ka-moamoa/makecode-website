@@ -93,7 +93,7 @@ const Navbar = () => {
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link
-                    href="http://kamoamoa.eecs.northwestern.edu/"
+                    href="http://kamoamoa.com/"
                     color="inherit"
                     target="_blank"
                     underline="none"
@@ -142,7 +142,7 @@ const Navbar = () => {
               sx={{ my: 2, color: "black", display: "block" }}
             >
               <a
-                href="http://kamoamoa.eecs.northwestern.edu/"
+                href="http://kamoamoa.com/"
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
                 rel="noreferrer"

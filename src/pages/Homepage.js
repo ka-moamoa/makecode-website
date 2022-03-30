@@ -1,11 +1,10 @@
 //Import MaterialUI Components
-import Typography from "@mui/material/Typography";
-import Card from "@mui/material/Card";
+import { Typography, Card, Box, Link } from "@mui/material/";
 
 import YoutubeVideo from "../components/Youtube";
 const Homepage = () => {
   return (
-    <>
+    <Box justifyContent="center" sx={{ mb: 3 }}>
       <Typography variant="h2" align="center" sx={{ mt: 5 }}>
         MakeCode Iceberg
       </Typography>
@@ -28,7 +27,17 @@ const Homepage = () => {
         novice programmers to take their in-class/in-lab fun projects to the
         wild/in the real world without having to power them through batteries.
       </Typography>
-    </>
+
+      <Link
+        href="https://dl.acm.org/doi/10.1145/3517236"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Typography variant="h6" style={{ textAlign: "center" }}>
+          Link to Paper at IMWUT
+        </Typography>
+      </Link>
+    </Box>
   );
 };
 
