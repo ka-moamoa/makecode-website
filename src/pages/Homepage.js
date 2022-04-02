@@ -1,5 +1,5 @@
 //Import MaterialUI Components
-import { Typography, Card, Box, Link } from "@mui/material/";
+import { Typography, Card, Box, Link, Grid } from "@mui/material/";
 
 import YoutubeVideo from "../components/Youtube";
 const Homepage = () => {
@@ -25,15 +25,23 @@ const Homepage = () => {
         wild/in the real world without having to power them through batteries.
       </Typography>
 
-      <Link
-        href="https://dl.acm.org/doi/10.1145/3517236"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Typography variant="h6" style={{ textAlign: "center" }}>
-          Link to Paper at IMWUT
-        </Typography>
-      </Link>
+      <Typography variant="h6" align="center">
+        <Link
+          href="https://dl.acm.org/doi/10.1145/3517236"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          [Link to Paper at IMWUT]
+        </Link>{" "}
+        <Link
+          href="https://josiahhester.com/cv/files/makecode_imwut22_kraemer.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          [Link to Preprint]{" "}
+        </Link>
+      </Typography>
     </Box>
   );
 };
