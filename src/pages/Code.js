@@ -12,9 +12,87 @@ import Seventh from "../resources/tutorial/7.png";
 const Code = () => {
   return (
     <Box>
-      <Typography variant="h2" align="center" sx={{ mt: 5 }}>
-        Getting Started
+      {/* Hardware Connection Instructions */}
+      <Typography variant="h4" textAlign="center" sx={{ mt: 5 }}>
+        Setting Up the Hardware
       </Typography>
+
+      <Typography variant="h5" textAlign="center">
+        What You Need
+      </Typography>
+      <Box
+        sx={{ width: "80%", m: "auto", d: "block" }}
+        style={{ fontSize: "1.2em" }}
+      >
+        <ul>
+          <li style={{ mt: 2 }}>
+            1 BBC Micro:bit V2{" "}
+            <a href="https://www.adafruit.com/product/4781">[Adafruit]</a>
+          </li>
+          <li style={{ mt: 2 }}>
+            1 Micro:bit Breakout Board{" "}
+            <a href="https://www.adafruit.com/product/4902" target="_blank">
+              [Adafruit]
+            </a>{" "}
+            <a
+              href="https://shop.pimoroni.com/products/pinbetween"
+              target="_blank"
+            >
+              [Pimoroni]
+            </a>
+          </li>
+          <li style={{ mt: 2 }}>
+            1 SPI FRAM{" "}
+            <a
+              href="https://www.adafruit.com/product/1897?gclid=CjwKCAiA3KefBhByEiwAi2LDHB1JLb-lflyjA7Vdw_aSJutwQ2WrVqZlE8iCQv4B7Ydz4quqZKGQ_RoCFbwQAvD_BwE"
+              target="_blank"
+            >
+              {" "}
+              [Adafruit]{" "}
+            </a>
+          </li>
+          <li style={{ mt: 2 }}>5 Female to Female Jumper Wires</li>
+        </ul>
+      </Box>
+
+      <Typography variant="h5" textAlign="center">
+        Connection Guide
+      </Typography>
+      <Box
+        sx={{ width: "80%", m: "auto", d: "block" }}
+        style={{ fontSize: "1.2em" }}
+      >
+        <table style={{ "margin-left": "auto", "margin-right": "auto" }}>
+          <tr>
+            <th>Micro:Bit</th>
+            <th>SPI FRAM</th>
+          </tr>
+          <tr>
+            <td>Pin 9</td>
+            <td>CS</td>
+          </tr>
+          <tr>
+            <td>Pin 15</td>
+            <td>MOSI</td>
+          </tr>
+          <tr>
+            <td>Pin 14</td>
+            <td>MISO</td>
+          </tr>
+          <tr>
+            <td>Pin 13</td>
+            <td>CLK</td>
+          </tr>
+          <tr>
+            <td>3V3</td>
+            <td>VIN</td>
+          </tr>
+          <tr>
+            <td>GND</td>
+            <td>GND</td>
+          </tr>
+        </table>
+      </Box>
       <Typography variant="h4" textAlign="center">
         Using our Server
       </Typography>
