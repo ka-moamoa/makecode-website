@@ -1,6 +1,7 @@
 //Import MaterialUI Components
 import { Typography, Box } from "@mui/material";
 
+import ConnectionTable from "../components/ConnectionTable";
 import First from "../resources/tutorial/1.png";
 import Second from "../resources/tutorial/2.png";
 import Third from "../resources/tutorial/3.png";
@@ -56,43 +57,11 @@ const Code = () => {
       </Box>
 
       <Typography variant="h5" textAlign="center">
-        Connection Guide
+        FRAM Connection Guide
       </Typography>
-      <Box
-        sx={{ width: "80%", m: "auto", d: "block" }}
-        style={{ fontSize: "1.2em" }}
-      >
-        <table style={{ "margin-left": "auto", "margin-right": "auto" }}>
-          <tr>
-            <th>Micro:Bit</th>
-            <th>SPI FRAM</th>
-          </tr>
-          <tr>
-            <td>Pin 9</td>
-            <td>CS</td>
-          </tr>
-          <tr>
-            <td>Pin 15</td>
-            <td>MOSI</td>
-          </tr>
-          <tr>
-            <td>Pin 14</td>
-            <td>MISO</td>
-          </tr>
-          <tr>
-            <td>Pin 13</td>
-            <td>CLK</td>
-          </tr>
-          <tr>
-            <td>3V3</td>
-            <td>VIN</td>
-          </tr>
-          <tr>
-            <td>GND</td>
-            <td>GND</td>
-          </tr>
-        </table>
-      </Box>
+
+      <ConnectionTable />
+
       <Typography variant="h4" textAlign="center">
         Using our Server
       </Typography>
