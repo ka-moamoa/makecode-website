@@ -1,7 +1,7 @@
 # MakeCode Iceberg Website #
 
 ## Installation
-Either clone from orginal repo or fork to make changes. 
+One could do the following installation: 
 To clone type,
 ```bash
 git clone REPO_URL
