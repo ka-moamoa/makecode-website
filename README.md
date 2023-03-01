@@ -1,6 +1,32 @@
 # MakeCode Iceberg Website #
 
-To Run:
-* git fetch the repo
-* npm install
-* npm start
+## Installation
+Either clone from orginal repo or fork to make changes. 
+To clone type,
+```bash
+git clone REPO_URL
+```
+
+To fetch repo,
+```bash
+git fetch REPO_URL
+```
+
+## Package Installation
+Make sure NodeJS is installe. Check by typing
+```bash
+node --version
+```
+
+Run the following command to install necessary packages
+```bash
+npm install
+```
+
+## Run program
+To run the program use the following command,
+```bash
+npm start
+```
+
+This will give live updates on web pages
