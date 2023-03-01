@@ -2,7 +2,7 @@
 
 ## Installation
 One could do the following installation: 
-To clone type,
+<br>To clone type,
 ```bash
 git clone REPO_URL
 ```
